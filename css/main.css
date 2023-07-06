@@ -1,0 +1,300 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Bai Jamjuree", sans-serif;
+  letter-spacing: 0.3px;
+}
+
+p {
+  color: hsl(201, 11%, 66%);
+  padding: 15px;
+  line-height: 25px;
+  font-weight: 400;
+  letter-spacing: 0.3px;
+}
+
+h1,
+h2,
+h3 {
+  color: hsl(210, 10%, 33%);
+}
+
+
+button  {
+  border: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  padding: 14px;
+  border-radius: 50px;
+  padding-left: 18px;
+  padding-right: 18px;
+}
+
+.description {
+  max-width: 700px;
+}
+
+.caption {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.caption h2 {
+  font-size: 28px;
+  color: hsl(210, 10%, 33%);
+  font-weight: 600;
+}
+
+.caption p {
+  font-size: 16px;
+  color: hsl(201, 11%, 66%);
+  padding: 15px;
+  line-height: 24px;
+  font-weight: 400;
+
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Start Header */
+
+.header {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-image: url("../images/bg-header-desktop.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.header .img {
+  margin-top: 100px;
+}
+
+.header .text h1 {
+  font-size: 35px;
+  margin-top: 40px;
+}
+.header .text p {
+  font-size: 18px;
+  margin: auto;
+}
+
+.header .btns {
+  margin-top: 20px;
+}
+
+.header .btns .btn1 {
+  margin-right: 3px;
+  background-color: hsl(171, 66%, 44%);
+  border-bottom: hsl(169.52deg 65.63% 37.65%) solid 2.5px;
+}
+
+.header .btns .btn2 {
+  margin-left: 3px;
+  background-color: hsl(233, 100%, 69%);
+  border-bottom: solid 2.5px hsl(232.94deg 64.15% 58.43%);
+}
+
+.header .btns .btn1:hover {
+  cursor: pointer;
+  box-shadow: 0px 1px 10px 0px hsl(169.52deg 65.63% 37.65%);
+}
+
+.header .btns .btn2:hover {
+  cursor: pointer;
+  box-shadow: 0px 1px 10px 0px hsl(232.94deg 64.15% 58.43%);
+}
+
+/* End Header */
+
+/* Start Section One */
+
+.section-one {
+  margin-top: 120px;
+}
+
+.section-one .content {
+  display: flex;
+  margin-top: 50px;
+}
+
+.section-one .content .img {
+  width: 50%;
+}
+
+.section-one .content img {
+  width: 100%;
+  margin-left: -30px;
+}
+
+.section-one .content .text {
+  width: 30%;
+  margin: 0 50px;
+}
+
+.section-one .content .text p {
+  font-size: 14px;
+  padding-left: 0;
+}
+
+.section-one .content .text h3 {
+  font-size: 22px;
+  padding-top: 50px;
+}
+
+/* End Section One */
+
+/* Start Section Two */
+
+.section-two {
+  margin-top: 80px;
+}
+
+.section-two .img {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+.section-two .img img {
+  width: 900px;
+}
+
+/* End Section Two */
+
+/* Start Section Three */
+.section-three {
+  margin-top: 50px;
+}
+
+.section-three .text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0px;
+  margin: 50px 80px;
+}
+
+.section-three .text h3 {
+  padding-top: 25px;
+}
+
+.section-three .text p {
+  font-size: 14px;
+}
+
+.section-three .text img {
+  width: 35px;
+}
+
+.section-three .img {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.section-three .img img {
+  aspect-ratio: 3.5/1;
+  margin: 50px;
+}
+
+/* End Section Three */
+
+/* Start Section four */
+.section-four {
+  margin-top: 80px;
+}
+
+.section-four .btns {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.section-four .btns .btn1 {
+  margin-right: 6px;
+  background-color: hsl(171, 66%, 44%);
+  border-bottom: hsl(169.52deg 65.63% 37.65%) solid 2.5px;
+}
+
+.section-four .btns .btn2 {
+  margin-left: 6px;
+  background-color: hsl(233, 100%, 69%);
+  border-bottom: solid 2.5px hsl(232.94deg 64.15% 58.43%);
+}
+
+.section-four .btns .btn1:hover {
+  cursor: pointer;
+  box-shadow: 0px 1px 10px 0px hsl(169.52deg 65.63% 37.65%);
+}
+
+.section-four .btns .btn2:hover {
+  cursor: pointer;
+  box-shadow: 0px 1px 10px 0px hsl(232.94deg 64.15% 58.43%);
+}
+/* End Section four */
+
+/* Start Footer */
+.footer {
+  background-color: hsl(220deg 17.65% 96.67%);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 120px;
+}
+
+.footer img {
+  width: 45px;
+}
+
+.footer .nav-bar ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.footer .nav-bar ul li {
+  padding: 40px;
+}
+
+.footer .nav-bar ul li a {
+  color: hsl(210, 10%, 33%);
+}
+
+.footer .social-media i {
+  color: hsl(210, 10%, 33%);
+  padding: 5px;
+  font-size: 20px;
+}
+
+.footer .nav-bar ul li a:hover {
+  color: hsl(171, 66%, 44%);
+}
+
+.footer .social-media i:hover {
+  color: hsl(171, 66%, 44%);
+}
+
+/* End Footer */
